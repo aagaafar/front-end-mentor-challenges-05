@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+  
+}
+
+.container{
+    max-width: 80%; 
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.info{
+    background-color: hsl(244, 38%, 16%);
+    padding: 10%;
+    
+}
+
+.info .title{
+    color: hsl(0, 0%, 100%);
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.info .descrption{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    max-width: 85%;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+}
+
+.info .title span{
+    color: hsl(277, 64%, 61%);
+}
+
+.info .flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px 0 0;
+
+}
+
+
+.info .flex .frist {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+   
+}
+.info .flex .second{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+.img{
+    position: relative;
+}
+.img::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(250, 64%, 61%, 0.5);
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+}
+
+
